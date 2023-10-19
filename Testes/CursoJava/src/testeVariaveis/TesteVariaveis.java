@@ -8,7 +8,7 @@ public class TesteVariaveis {
 		int idade = 20;
 		if (idade >= 18) {
 			System.out.println("Você já tem idade para dirigir.");
-			System.out.println("Dirija com cuidado!");
+			System.out.println("Dirija com cuidado e cautela!");
 		} else {
 			System.out.println("Você ainda é menor de idade, portanto, ainda não pode dirigir.");
 		}

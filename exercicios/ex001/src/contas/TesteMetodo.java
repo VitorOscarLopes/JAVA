@@ -8,5 +8,8 @@ public class TesteMetodo {
 		contaDoVitor.saldo =100;
 		contaDoVitor.deposita(50);
 		System.out.println(contaDoVitor.saldo);
+
+		System.out.println(contaDoVitor.saca(154));
+		System.out.println(contaDoVitor.saldo);
 	}
 }

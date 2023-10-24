@@ -11,4 +11,13 @@ public class Conta {
 	public void deposita(double valor) {
 		saldo += valor;
 	}
+	public boolean saca(double valor){
+		if(saldo >= valor){
+			saldo -= valor;
+			return true;
+		}else{
+			System.out.println("Não há saldo suficiente. Saque negado!");
+			return false;
+		}
+	}
 }

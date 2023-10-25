@@ -11,5 +11,12 @@ public class TesteMetodo {
 
 		System.out.println(contaDoVitor.saca(154));
 		System.out.println(contaDoVitor.saldo);
+
+		Conta contaDaGiovanna = new Conta();
+		contaDaGiovanna.deposita(1000);
+		contaDaGiovanna.transfere(300, contaDoVitor);
+
+		System.out.println(contaDaGiovanna.saldo);
+		System.out.println(contaDoVitor.saldo);
 	}
 }
